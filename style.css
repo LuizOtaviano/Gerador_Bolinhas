@@ -70,7 +70,7 @@ input[type='number'], #num_objetos {
     border-radius: 50%;
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (min-width: 768px) and (orientation: landscape) {
     .controles {
         flex-direction: row;
     }
